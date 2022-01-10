@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f9f9f9;
+	font-family: 'roboto', sans-serif;
+}
+
+img {
+	width: 75px;
+	height: 35px;
+	padding-right: 34px;
+}
+
+.navbar {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 60px;
+    /* padding: 0 2.5vw; */
+}
+
+.search-box {
+	max-width: 557px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+    position: relative;
+    margin-left: 20%;
+}
+
+.search-bar {
+	width: 85%;
+	height: 100%;
+	border: 2px solid #dbdbdb;
+	padding: 0 20px;
+	font-size: 16px;
+}
+
+.srch-btn {
+	background-color: #f0f0f0;
+    border: 2px solid #dbdbdb;
+    padding: 5px 0;
+    border-left: none;
+}
+
+.srch-btn img {
+	height: 100%;
+    padding-left: 37px;
+    padding-right: 19px;
+    height: 100%;
+    padding-left: 37px;
+    padding-right: 19px;
+    margin-top: 1px;
+}
+
+.ylogo {
+	width: 200px;
+	height: 75px;
+}
+
+.ppic {
+	width: 75px;
+	height: 50px;
+}
+
+.video {
+	margin-top: 23px;
+	margin-left: 100px;
+	width: 80%;
+}
+
+.option {
+	height: 35px;
+	display: flex;
+	margin-left: auto;
+	align-items: center;
+}
+
+.ppic img {
+	object-fit: cover;
+}
+
+.main {
+
+}
