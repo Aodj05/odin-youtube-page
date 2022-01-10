@@ -76,8 +76,9 @@ img {
 
 .video {
 	margin-top: 23px;
-	margin-left: 100px;
-	width: 80%;
+	margin-left: 10px;
+	width: 75%;
+	height: 632px;
 }
 
 .option {
@@ -91,6 +92,176 @@ img {
 	object-fit: cover;
 }
 
-.main {
-
+.title {
+	font-weight: 400;
+	margin-right: 371px;
 }
+
+.video-info {
+	position: relative;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.video-info span {
+	color: #777;
+}
+
+.vicon {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vicon img {
+	height: 100px;
+	width: 100px;
+	padding: .3rem;
+	height: 2rem;
+	width: 2rem;
+	opacity: .5;
+}
+
+.descr-info {
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 56px;
+}
+
+.icon img {
+	height: 103px;
+    width: 138px;
+    margin-top: -25px;
+}
+
+.title h1 {
+	font-size: 1.1rem;
+}
+
+.title p {
+	line-height: 1.5rem;
+}
+
+.descr-info button {
+	margin-top: 1rem;
+    top: 0;
+    right: 0;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: .9rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(204,0,0);
+    margin-left: auto;
+    border: none;
+}
+
+.show-more p {
+	margin-top: 10px;
+}
+
+.comments {
+	margin-left: 33px;
+	display: flex;
+	flex-direction: column;
+}
+
+.comments-info {
+	display: flex;
+    margin-left: 27px;
+    margin-bottom: 26px;
+}
+
+.form {
+	display: flex;
+	margin-bottom: 26px;
+}
+
+.form input {
+	font-size: 1rem;
+	border: none;
+	border-bottom: 1px solid lightgray;
+	display: flex;
+    outline: none;
+    background-color: #f8f8f8;
+    width: 90%;
+}
+
+.comments-info span {
+	display: flex;
+    margin-left: 58px;
+    align-items: center;
+}
+
+.comments-info img {
+	height: 18px;
+    width: 53px;
+}
+
+.comments-info h1 {
+	margin-left: -20px;
+	font-size: 16px;
+}
+
+.avatar {
+	display: flex;
+}
+
+.comment {
+	padding: 16px;
+}
+
+.comment h2 {
+	font-weight: 500;
+	font-size: 1.3rem;
+	display: block;
+	margin-bottom: 2px;
+}
+
+a {
+	width: 3rem;
+}
+
+.commentor {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.date {
+	font-size: 12px;
+	color: #777;
+}
+
+.comment p {
+	font-size: 20px;
+	margin-top: 8px;
+	width: 80%;
+}
+
+.comment img {
+	width: 31px;
+    height: 17px;
+    padding-right: 10px;
+}
+
+.comment button {
+	margin-right: 16px;
+    height: 16px;
+    background-color: #f8f8f8;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .03rem;
+    opacity: .7;
+    cursor: pointer;
+    border: none;
+}
+
+.comment a {
+	font-size: 14px;
+}
+
+
+
+
