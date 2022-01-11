@@ -2,11 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 body {
 	background-color: #f9f9f9;
-	font-family: 'roboto', sans-serif;
+	font-size: 16px;
 }
 
 img {
@@ -14,6 +15,9 @@ img {
 	height: 35px;
 	padding-right: 34px;
 }
+ p {
+ 	width: 90%;
+ }
 
 .navbar {
 	display: flex;
@@ -22,12 +26,10 @@ img {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    /* position: fixed; */
     top: 0;
     left: 0;
-    /* width: 100%; */
     height: 60px;
-    /* padding: 0 2.5vw; */
+    position: sticky;
 }
 
 .search-box {
@@ -74,13 +76,6 @@ img {
 	height: 50px;
 }
 
-.video {
-	margin-top: 23px;
-	margin-left: 10px;
-	width: 75%;
-	height: 632px;
-}
-
 .option {
 	height: 35px;
 	display: flex;
@@ -88,11 +83,41 @@ img {
 	align-items: center;
 }
 
+.vsd {
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	padding: .5rem 1.5rem;
+  	margin: 0 auto;
+  	margin-top: 3rem;
+  	max-width: 1930px;
+  	background-color: #f9f9f9;
+}
+
+.main {
+	grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.video {
+	position: relative;
+	padding-bottom: 50%;
+	padding-right: 50%;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .ppic img {
 	object-fit: cover;
 }
 
-.title {
+.video-info h1 {
 	font-weight: 400;
 	margin-right: 371px;
 }
@@ -123,11 +148,23 @@ img {
 	opacity: .5;
 }
 
+.descr {
+	grid-column-start: 1;
+  	grid-column-end: 4;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+  	padding: 16px 0;
+  	position: relative;
+  	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
 .descr-info {
 	display: flex;
     flex-direction: row;
     margin-bottom: 56px;
 }
+
+
 
 .icon img {
 	height: 103px;
@@ -163,9 +200,11 @@ img {
 }
 
 .comments {
-	margin-left: 33px;
-	display: flex;
-	flex-direction: column;
+	grid-column-start: 1;
+  	grid-column-end: 4;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+  	padding-top: 16px;
 }
 
 .comments-info {
@@ -261,6 +300,58 @@ a {
 .comment a {
 	font-size: 14px;
 }
+
+.side {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.top-btns {
+	padding: 12px;
+	margin-right: 100px;
+}
+
+.tbtn {
+	border-radius: 6px;
+	margin-right: 6px;
+}
+
+.cards {
+	grid-column-start: 4;
+  	grid-column-end: 5;
+  	grid-row-start: 1;
+  	padding-left: 24px;
+}
+
+.vid {
+	display: flex;
+    flex-direction: row;
+    padding-bottom: 11px;
+}
+
+.tnail img {
+	height: 100px;
+	width: 199px;
+	padding-right: 0;
+}
+
+.tinfo {
+	width: 100%;
+	font-size: 11px;
+}
+
+.tinfo h3 {
+	font-size: 16px;
+}
+
+.tinfo h4 {
+	font-weight: 400;
+}
+
+
+
+
 
 
 
